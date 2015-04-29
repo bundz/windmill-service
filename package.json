@@ -1,0 +1,29 @@
+{
+  "name": "windmill-service",
+  "version": "1.0.0",
+  "description": "Service to play windmill.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bundz/windmill-service.git"
+  },
+  "keywords": [
+    "wildmill",
+    "backend",
+    "node"
+  ],
+  "author": "Vitor Alano de Ataides",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bundz/windmill-service/issues"
+  },
+  "homepage": "https://github.com/bundz/windmill-service",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3",
+    "wildmill": "git+https://github.com/bundz/wildmill.git"
+  }
+}
